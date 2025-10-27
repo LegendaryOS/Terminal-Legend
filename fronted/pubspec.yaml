@@ -1,0 +1,24 @@
+name: tl-fronted
+description: Terminal dla LegendaryOS z efektami cząsteczek i obsługą WebSocket.
+version: 1.0.0
+
+environment:
+  sdk: '>=3.9.0 <4.0.0'
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  web_socket_channel: ^2.4.0    # komunikacja WebSocket
+  process_run: ^0.12.3          # uruchamianie procesów backendowych
+  window_manager: ^0.3.0        # kontrola okna i przezroczystość
+  particles_flutter: ^0.1.4     # tło z cząsteczkami
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
